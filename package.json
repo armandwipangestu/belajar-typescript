@@ -1,0 +1,35 @@
+{
+  "name": "belajar-typescript",
+  "version": "1.0.0",
+  "description": "Belajar TypeSCript Dasar",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armandwipangestu/belajar_typescript.git"
+  },
+  "author": "Arman Dwi Pangestu",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/armandwipangestu/belajar_typescript/issues"
+  },
+  "homepage": "https://github.com/armandwipangestu/belajar_typescript#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.2",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.5",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
