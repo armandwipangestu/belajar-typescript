@@ -10,4 +10,10 @@ describe("Array", function () {
         const hobbies = ["Membaca", "Menulis"];
         console.info(hobbies);
     });
+    it("should support tupple", function () {
+        const person = ["Arman", "Dwi", 21];
+        console.info(person[0]);
+        console.info(person[1]);
+        console.info(person[2]);
+    });
 });
