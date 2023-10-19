@@ -6,4 +6,8 @@ describe("Array", function () {
         console.info(names);
         console.info(values);
     });
+    it("should support readonly array", function () {
+        const hobbies = ["Membaca", "Menulis"];
+        console.info(hobbies);
+    });
 });
